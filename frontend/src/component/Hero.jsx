@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 
+
 const Hero = () => {
   return (
     <div className='flex flex-col sm:flex-row border border-gray-400'>
@@ -17,7 +18,7 @@ const Hero = () => {
             </div>
           </div>
         </div> 
-        <img className='w-full sm:w-1/2' src={assets.contact_img} alt="" />     
+        <img className='w-full sm:w-1/2' src={assets.hero_img} alt="" />     
     </div>
   )
 }
