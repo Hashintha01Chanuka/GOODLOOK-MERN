@@ -8,7 +8,7 @@ export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
 
-    const currency = 'Rs';
+    const currency = 'Rs ';
     const delivery_fee = 100;
     const backendUrl = "http://localhost:4000"
     const [search,setSearch] = useState('');
