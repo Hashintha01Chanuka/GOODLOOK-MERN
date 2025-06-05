@@ -115,9 +115,7 @@ const verifyStripe = async (req,res) => {
     }
 }
 
-const placeOrderRazorpay = async (req,res) => {
 
-}
 const userOrders = async (req,res) => {
    try {
     
@@ -161,4 +159,4 @@ const updateStatus = async (req,res) => {
 
 }
 
-export {verifyStripe,placeOrder,placeOrderStripe,placeOrderRazorpay,userOrders,allOrders,updateStatus}
+export {verifyStripe,placeOrder,placeOrderStripe,userOrders,allOrders,updateStatus}
