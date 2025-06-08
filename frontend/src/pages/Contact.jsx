@@ -15,8 +15,8 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-xl text-gray-600' >Our Store</p>
           <p className='text-gray-500'>Ganewaththa <br />Kurunegala</p>
-          <p className='text-gray-500'>Tel: 0764859685 <br />Email: abc@200.com</p>
-          <p className='font-semibold text-xl text-gray-600'>Careers at forever</p>
+          <p className='text-gray-500'>Tel: 0764859685 <br />Email: goodlook@200.com</p>
+          <p className='font-semibold text-xl text-gray-600'>Careers at GOODLOOK</p>
           <p className='text-gray-500'>Learn more about us</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
         </div>
