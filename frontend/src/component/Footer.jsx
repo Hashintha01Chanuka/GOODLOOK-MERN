@@ -20,12 +20,29 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+          <p className="text-xl font-medium mb-5">Quick Links</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy Policy</li>
+            <li>
+              <a
+                href="/"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent full reload
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="/collection">Collections</a>
+            </li>
+            <li>
+              <a href="/about">About us</a>
+            </li>
+            <li>
+              <a href="/contact">Contact us</a>
+            </li>
           </ul>
         </div>
 
