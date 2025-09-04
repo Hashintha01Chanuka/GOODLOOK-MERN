@@ -44,12 +44,16 @@ const Add = ({ token }) => {
       if (response.data.success) {
         toast.success(response.data.message)
         setName('')
-        setSubCategory('')
+        setDescription('')
+        setCategory('Men')
+        setSubCategory('Topwear')
         setImage1(false)
         setImage2(false)
         setImage3(false)
         setImage4(false)
         setPrice('')
+        setBestseller(false)
+        setSizes([])
       } else {
         toast.error(response.data.message)
       }
